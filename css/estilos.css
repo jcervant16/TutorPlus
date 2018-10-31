@@ -1,0 +1,10 @@
+
+
+.img_article{
+    width: 300px;
+    height: 300px;
+}
+.cabecera{
+   background-color: #3b5998;
+   display: flex;   
+}

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Registrese</title>
+</head>
+<body>
+        <header class="cabecera">
+                <h1>TutoPlus</h1>
+                <nav>
+                    <details open>
+                        <summary>Menú</summary>
+                        <ul>
+                            <li> <a href="https://www.google.com">Inicio </a></li>
+                            <li> <a href="">Docentes</a></li>
+                            <li> <a href="">Asignaturas</a></li>
+                            <li> <a href="">Contactenos</a></li>
+                        </ul>
+                    </details>
+                </nav>
+                <br>
+        
+                <nav class="ingreso">
+                    <ul>
+                            <li>Ingresar</li>
+                            <li>Registrarse</li>
+                    </ul>
+                </nav>
+                <br>
+                <form action="">
+                <label for="busqueda">Buscar un docente</label>
+                <input type="search" name="busqueda" placeholder="Ej: Docente Matematicas">
+                <input type="submit" value="Buscar">
+                    </form>
+             </header>
+             <section>
+                 <article>
+                     <h1>Registrese</h1>
+
+                 <form action="">
+                 <fieldset>
+                     <legend>Formulario de registro</legend>
+                    
+                    <input type="text" pattern="[A-Za-z]" title="El campo contiene caracteres invalidos" autofocus placeholder="Nombres" required>
+                    <br>
+                    <input type="text"  pattern="[A-Za-z]" title="El campo contiene caracteres invalidos" placeholder="Apellidos" required>
+                    <br>
+                    <input type="email" placeholder="Correo electronico" required>
+                    <br>
+                    <input type="password" placeholder="Contraseña" required>
+                   <br>
+                    <label for="fecha_nacimiento">Fecha de nacimieno</label>
+                    <br>
+                    <input type="date" name="fecha_nacimiento" required>
+                    <br>
+                    <label for="estudio">Estudios</label>
+                    <select name="estudio" required>Estudios
+                        <option value="primaria">Primaria</option>
+                        <option value="secundaria">Secundaria</option>
+                        <option value="universidad">Universidad</option>
+                    </select>
+                    <input type="checkbox" name="estadoEstudios" checked>
+                    <label for="estadoEstudios">En curso</label>
+                    <br>
+                   <label for="sexo">Sexo</label>
+                    <br>
+                    <input type="radio" name="sexo" value="1" checked> Masculino
+                    <input type="radio" name="sexo" value="2"> Femenino
+                    <br>
+                    <input type="submit" value="Registrase">
+
+                    
+                 </fieldset>
+                </form>
+                </article>
+             </section>
+             <footer>    
+                    <h2>Contactenos</h2>
+                    <form action="">
+                        <fieldset>
+                            <legend>Formulario de contacto</legend>
+                        <br>
+                        <label for="nombre">Su nombre: </label>
+                        <br>
+                        <input type="text" name="nombre" autocomplete="off" placeholder="Pedro Pérez" required> 
+                        <br>
+                        <label for="correo">Su email: </label>
+                        <br>
+                        <input type="email" name="correo" placeholder="correo@email.com" required>
+                        <br>
+                        <label for="mensaje"> Escriba aquí su mensaje</label>
+                        <br>
+                        <textarea placeholder="coloque su mensaje aquí" name="mensaje" required > </textarea>
+                        <br>
+                        <input type="submit" value="Mandar">
+                    </fieldset>
+                    </form>
+            
+                    &copy; 2018
+                    <address>
+                        JetWeb <a href="mailto:jose11cervantes@hotmail.com">jose11cervantes@hotmail.com</a>
+                    </address>
+                </footer>
+</body>
+</html>
